@@ -1,0 +1,142 @@
+.inter-font {
+  font-family: "Inter" ,sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ash{
+    color:rgba(137, 135, 161, 1)
+}
+.black{
+    color: black;
+}
+.gray{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+/* header */
+.cart{
+    display: flex ;
+    gap: 10px;
+}
+.cart-img{
+    height: 22px;
+    width: 15px;
+}
+.nav{
+    display: flex;
+    gap: 48px;
+}
+.nav a{
+    text-decoration: none;
+}
+.fl{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: 30px 150px;
+}
+/* Fresh */
+.head{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top:90px;
+}
+.head h1 {
+  margin: 0;
+}
+
+.fresh-sub{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    margin-top:10px;
+}
+.fresh-part{
+    display: flex;
+    gap: 110px;
+}
+.fresh{
+    margin: 130px 150px;
+}
+/* Our Plants */
+.head-plant{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.head-plant h2{
+    margin: 0;
+}
+.plants{
+      margin: 130px 150px;
+}
+.plant-sub{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 126px;
+    margin: 0;
+}
+.plant-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+.lily{
+    font-size: 20px;
+    font-weight:600;
+    margin: 0;
+    margin-top: 15px;
+}
+.price{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.plant-card {
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.plant-card img {
+  max-width: 100%;
+  width: 270px;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.btn {
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: purple;
+  transform: scale(1.03);
+}
