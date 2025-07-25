@@ -170,6 +170,8 @@
   transform: translateX(-50%);
   filter: drop-shadow(-4px 20px 4px rgba(0, 0, 0, 0.2));
 }
+
+
 /* Deal */
 .deal{
     margin: 130px 150px;
@@ -416,4 +418,302 @@ html, body {
 }
 .footer-social a:hover {
   color: #0077b5; 
+}
+@media screen and (max-width: 576px) {
+   body {
+    overflow-x: hidden;
+  }
+  .fl {
+    margin: 13px 16px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+  .cart-img {
+    height: 20px;
+    width: 15px;
+  }
+  .logo {
+    height: 45px;
+    width: auto;
+}
+  .none {
+    display: none;
+  }
+  .fresh {
+    /* margin: 40px 20px; */
+    margin: 0;
+    padding: 0;
+  }
+.fresh-part {
+    flex-direction: column-reverse;
+    margin: 0px 0;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .head {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 13px;
+    padding: 10px;
+  }
+  .fresh-sub {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .fresh-img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+    /* margin-bottom: 15px; */
+  }
+  .fresh-img img {
+    width: 100%;
+    max-width: 100%;
+    /* height: auto; */
+    display: block;
+    /* object-fit: cover; */
+  }
+/* plants section */
+.plants {
+    margin: 30px 0px;
+  }
+
+  .plant-sub {
+    padding: 0 20px;
+    font-size: 16px;
+    
+  }
+
+  .plant-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .plant-card {
+    padding: 10px;
+  }
+
+  .plant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+  }
+
+  .btn {
+    font-size: 17px;
+    font-weight: 300;
+    height: 45px;
+  }
+
+  .lily {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .head-plant {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+
+  .plants-sub {
+    font-size: 28px;
+  }
+  /* Plant Lover */
+.plant-lover {
+    margin: 30px 19px; 
+    margin-bottom: 40px;
+  }
+  .lover {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .img-container {
+    width: 100%;
+  }
+ .img-container img:first-child {
+    width: 100%;
+    height: auto;
+  }
+  .badge {
+    display: none; 
+  }
+  .para {
+    width: 100%;
+  }
+  .lover-head {
+    font-size: 24px; 
+    margin-top: 0px;
+  }
+  .meow{
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  .br{
+    display: none;
+  }
+  /* Deal */
+  .deal {
+    margin: 100px 0px;
+    margin-bottom: 20px;
+  }
+  .deal-title {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+    .deal-head {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  /* Image */
+   .image {
+    flex-direction: column;
+    margin: 60px 20px;
+    gap: 20px;
+  }
+  .box {
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+  }
+  .box img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+  }
+  .img-head,
+  .img-headb {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+    margin: 50px 50px;
+    text-align: center;
+  }
+  .shop,
+  .shopb {
+    margin: 45px 100px;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    z-index: 2;
+  }
+  /* Join */
+.join{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.news-head{
+    font-size: 26px;
+
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+}
+.email,.btn2{
+    /* width: 100%;
+    max-width: 300px; */
+}
+.email{
+    height: 50px;
+    width: 210px;
+}
+.btn2{
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+
+}
+.news-img{
+    height: 350px;
+    /* width: 100%; */
+     width: 100vw;
+    /* max-width: 100%; */
+    display: block;
+    object-fit: cover;
+}
+.news {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* footer */
+.footer {
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;        
+    gap: 30px;
+    margin: 20px 0;
+  }
+
+  .footer-logo img {
+    width: 160px;
+    margin-bottom: 20px;
+  }
+
+  .footer-logo p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 0;
+    padding-right: 3px;
+    margin-bottom: 0px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-links .column {
+    gap: 10px;
+  }
+
+  .footer-links a {
+    font-size: 18px;
+    padding-bottom: 32px;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer-social img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+  }
 }
