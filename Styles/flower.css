@@ -169,7 +169,30 @@
   height: 286px; 
   transform: translateX(-50%);
   filter: drop-shadow(-4px 20px 4px rgba(0, 0, 0, 0.2));
+  transition: transform 0.3s ease-in-out;
 }
+.badge:hover {
+  animation: spinScale 1.5s ease-in-out infinite;
+}
+
+@keyframes spinScale {
+  0% {
+    transform: translateX(-50%) rotate(0deg) scale(1);
+  }
+  25% {
+    transform: translateX(-50%) rotate(90deg) scale(1.2);
+  }
+  50% {
+    transform: translateX(-50%) rotate(180deg) scale(1);
+  }
+  75% {
+    transform: translateX(-50%) rotate(270deg) scale(0.8);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg) scale(1);
+  }
+}
+
 
 
 /* Deal */
