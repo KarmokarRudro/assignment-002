@@ -271,3 +271,300 @@
   /* font-size: 16px; */
   border-radius: 4px;
 }
+.large {
+  flex: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* Join */
+ body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.join{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    margin-bottom: 80px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.news-img{
+    width: 100%;
+    /* width: 100vw; */
+    height: auto;
+    display: block;
+    margin: 0;
+    object-fit: cover;
+}
+.news{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.news-head{
+    font-size:50px;
+    font-weight: 700;
+    color: white;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0;
+}
+.btn2{
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    padding: 19px 47px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+
+}
+.email{
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 55px;
+     width: 640px;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+/* Footer */
+.footer {
+  /* background-color: #f8f9fd; */
+  padding: 40px 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  max-width: 350px;
+}
+
+.footer-logo img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  gap: 110px;
+}
+
+.footer-links .column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgba(107, 114, 128, 1);
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-social a {
+  color: rgba(107, 114, 128, 1);
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.pi{
+    margin-top: 0px;
+}
+.footer-social a:hover {
+  color: #0077b5; 
+}
+/* Responsive */
+@media screen and (max-width: 576px) {
+   body {
+    overflow-x: hidden;
+  }
+  .fl {
+    margin: 13px 16px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+  .cart-img {
+    height: 20px;
+    width: 15px;
+  }
+  .logo {
+    height: 45px;
+    width: auto;
+}
+  .none {
+    display: none;
+  }
+  .fresh {
+    /* margin: 40px 20px; */
+    margin: 0;
+    padding: 0;
+  }
+.fresh-part {
+    flex-direction: column-reverse;
+    margin: 0px 0;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .head {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 13px;
+    padding: 10px;
+  }
+  .fresh-sub {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .fresh-img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+    /* margin-bottom: 15px; */
+  }
+  .fresh-img img {
+    width: 100%;
+    max-width: 100%;
+    /* height: auto; */
+    display: block;
+    /* object-fit: cover; */
+  }
+/* plants section */
+.plants {
+    margin: 30px 0px;
+  }
+
+  .plant-sub {
+    padding: 0 20px;
+    font-size: 16px;
+    
+  }
+
+  .plant-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .plant-card {
+    padding: 10px;
+  }
+
+  .plant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+  }
+
+  .btn {
+    font-size: 17px;
+    font-weight: 300;
+    height: 45px;
+  }
+
+  .lily {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .head-plant {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+
+  .plants-sub {
+    font-size: 28px;
+  }
+  /* Plant Lover */
+.plant-lover {
+    margin: 30px 19px; 
+    margin-bottom: 40px;
+  }
+  .lover {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .img-container {
+    width: 100%;
+  }
+ .img-container img:first-child {
+    width: 100%;
+    height: auto;
+  }
+  .badge {
+    display: none; 
+  }
+  .para {
+    width: 100%;
+  }
+  .lover-head {
+    font-size: 24px; 
+    margin-top: 0px;
+  }
+  .meow{
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  .br{
+    display: none;
+  }
